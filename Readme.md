@@ -24,13 +24,20 @@ Before running the tests, ensure you have the following installed:
 * TestNG
 * Cucumber
 
+## Project Structure
+under the src/test/java there are 4 packages:
+  1. **api.endpoints** - maintain all the endpoints
+     - PetEndPoints - contains all the method implementation
+     - Routes - maintain all the url's
+  2. **api.payload** - maintain all the payload
+  3. **api.test** - contains all the testcases
+  4. **api.utilities** - contains reusable components/ reporting/ data handle
+
 ### How to Run the Project
 
 1. Clone or download the project from the repository.
 2. Open the project in IntelliJ IDEA or your preferred IDE.
 3. Ensure that the required dependencies are resolved by Maven.
-4. Open the feature files located in the src/test/resources/features directory.
-5. Right-click on the feature file and select "Run" to execute the Cucumber scenarios.
 
 #### Test Data
 
